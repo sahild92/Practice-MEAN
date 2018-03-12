@@ -2,10 +2,10 @@ export class MainController {
   constructor ($http) {
     'ngInject';
 
+  
   }
-    postMessage(){
-        console.log("post");
-    }
 
+  postMessage() {
+    console.log("post");
+  }
 }
-
